@@ -1,0 +1,147 @@
+*{
+	margin:0px;
+	padding:0px;}
+body{
+	font-family:"微软雅黑";}
+
+.header{
+	height:50px;
+	width:100%px;
+	background:#cf4646;}  /*rgb(207,70,70)*/
+.header .hdtext{
+	height:50px;
+	width:1140px;
+
+	margin:0px auto;} 
+.header .logo{
+	float:left;
+	font-size:18px;
+	line-height:50px;
+	}
+.header .nav{
+	float:right;}
+.header .nav li{ float:left;}
+.header .nav a{
+	font-size:14px;
+	line-height:50px;
+	display:block;
+	padding:0 15px;
+	}
+ul{
+	list-style:none;}
+a{
+	text-decoration:none;}
+.header a{
+	color:#efefef;}
+.header a:hover{
+	color:#fff;}
+
+.banner{
+	height:380px;
+	width:100%px;
+	background:#cf4646;
+	text-align:center;
+	} 
+.banner .logo{
+	margin-top:60px;
+	}
+.banner p{
+	font-size:21px;
+	font-family:"微软雅黑 Light";
+	color:#fff;
+	margin:10px auto 50px;}
+.banner .btm{
+	font-size:18px;
+	color:#efbfbf;
+	border:2px #efbfbf solid;
+	padding:6px 14px 10px 14px;
+	border-radius: 2px;
+	}
+.banner .btm:hover{
+	color:#efefef;
+	border-color:#efefef;}
+
+.main{
+	height:300px;
+	width:1170px;
+	margin:30px auto;} 
+.main .box1{
+	width:585px;
+	height:144.42px;
+	float:left;
+    margin-top:25px;
+	margin-left:18px;
+	}	
+.main .box2{
+	width:555px;
+	height:144.42px;
+	float:left;
+	margin-top:25px;
+	}	
+.main .box3{
+	width:555px;
+	height:144.42px;
+	float:left;
+    margin-top:25px;
+	margin-left:18px;
+	}	
+.main .box4{
+	width:555px;
+	height:144.42px;
+	float:right;
+    margin-top:25px;
+	margin-right:12px;
+	}	
+.main p{
+	display:block;
+	margin-top:10px;
+	font-size:18px;
+	}	
+.main h2{
+	display:block;
+	font-family:"微软雅黑 Light";
+    font-size: 30px;
+	font-weight:600;
+    line-height: 1.42857143;}
+	
+.footer{
+	height:80px;
+	width:100%px;
+	background:#fff;
+	margin-top:60px;
+	margin-bottom:10px;} 
+.footer .text{
+	margin:0px auto;
+	line-height:80px;
+	text-align:center;
+	width:1167px;
+	height:110px;
+	}
+
+.list li{
+	color:#aaa;
+    display: inline;
+    padding-right: 5px;
+    padding-left: 5px;
+	line-height: 1.2em;
+}
+.list li a{
+	text-decoration:none;
+	color:#aaa;
+	font-size:14px;
+	}
+.footer .text p ul{
+	display:block;
+	margin-top: 0;
+    margin-bottom: 10px;
+	}
+.footer .text p{
+	color:#aaa;
+	font-size:14px;
+    line-height: 2.5em;
+	}
+.footer .list{
+	padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+	}
